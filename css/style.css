@@ -1,0 +1,114 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/gilroy-medium.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-medium.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/gilroy-medium.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/gilroy-medium.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */ url("../fonts/gilroy-medium.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/gilroy-medium.svg#gilroy-medium") format("svg"); /* Chrome < 4, Legacy iOS */
+}
+
+/* Style */
+
+body {
+  font-family: "Gilroy-Bold";
+}
+
+/* hero */
+
+.hero {
+}
+
+.hero .content-block {
+  padding-bottom: 100px;
+}
+
+.content-block {
+  max-width: 944px;
+  margin: auto;
+}
+
+.header {
+  border-bottom: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.nav-header {
+  min-height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-header a {
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.nav-header a:hover {
+  color: #000;
+}
+
+.hero-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 188px;
+}
+
+.logo {
+  font-size: 48px;
+  line-height: 59px;
+  color: #070707;
+}
+
+.designer-about {
+}
+
+.designer-about p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.localisation {
+  list-style-type: none;
+  transform: rotate(-90deg);
+  margin-right: -17px;
+}
+
+.localisation li:not(:last-child)::after {
+  content: "|";
+  margin: 0 4px;
+  font-weight: bold;
+}
+
+.localisation li {
+  display: inline-block;
+}
+.localisation a {
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  text-transform: uppercase;
+}
+.localisation a:hover {
+  color: #000;
+}
+
+.hero-bg {
+}
